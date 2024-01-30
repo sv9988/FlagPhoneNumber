@@ -488,7 +488,7 @@ public let FPNOBJCCountryCode: [FPNOBJCCountryKey: String] = [
     FPNOBJCCountryKey.TC: "TC",
     FPNOBJCCountryKey.VG: "VG",
     FPNOBJCCountryKey.VI: "VI",
-    FPNOBJCCountryKey.AX: "AX"
-    FPNOBJCCountryKey.CW: "CW"
-    FPNOBJCCountryKey.CW: "BQ"
+    FPNOBJCCountryKey.AX: "AX",
+    FPNOBJCCountryKey.CW: "CW",
+    FPNOBJCCountryKey.CW: "BQ",
 ]
