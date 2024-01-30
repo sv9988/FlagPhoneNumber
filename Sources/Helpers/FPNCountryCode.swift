@@ -56,7 +56,7 @@ public enum FPNCountryCode: String {
     case KP = "KP"
     case KR = "KR"
     case CR = "CR"
-    case CUR = "CUR"
+    case CW = "CW"
     case HR = "HR"
     case CU = "CU"
     case CI = "CI"
@@ -247,5 +247,5 @@ public enum FPNCountryCode: String {
     case VG = "VG"
     case VI = "VI"
     case AX = "AX"
-    case BON = "BON" //Bonaire
+    case BQ = "BQ" //Bonaire
 }

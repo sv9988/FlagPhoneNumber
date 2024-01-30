@@ -205,7 +205,7 @@ open class FPNCountryListViewController: UITableViewController, UISearchResultsU
     private func sortCountry() {
         if let countries = self.results{
             for country in countries {
-                if(country.code.rawValue == "AW" || country.code.rawValue == "CUR" || country.code.rawValue == "BON"){
+                if(country.code.rawValue == "AW" || country.code.rawValue == "CW" || country.code.rawValue == "BQ"){
                     
                 }else{
                     let key = "\(country.name[country.name.startIndex])".uppercased()
@@ -221,7 +221,7 @@ open class FPNCountryListViewController: UITableViewController, UISearchResultsU
             
             self.countrySections.insert("Common countries", at: 0)
             for country in countries {
-                if(country.code.rawValue == "AW" || country.code.rawValue == "CUR" || country.code.rawValue == "BON"){
+                if(country.code.rawValue == "AW" || country.code.rawValue == "CW" || country.code.rawValue == "BQ"){
                     if var countryValue = self.countryDictionaries["Common countries"] {
                         countryValue.append(country)
                         self.countryDictionaries["Common countries"] = countryValue
@@ -234,7 +234,7 @@ open class FPNCountryListViewController: UITableViewController, UISearchResultsU
         }else{
             if let countries = self.repository?.countries{
                 for country in countries {
-                    if(country.code.rawValue == "AW" || country.code.rawValue == "CUR" || country.code.rawValue == "BON"){
+                    if(country.code.rawValue == "AW" || country.code.rawValue == "CW" || country.code.rawValue == "BQ"){
                         
                     }else{
                         let key = "\(country.name[country.name.startIndex])".uppercased()
@@ -250,7 +250,7 @@ open class FPNCountryListViewController: UITableViewController, UISearchResultsU
                 
                 self.countrySections.insert("Common countries", at: 0)
                 for country in countries {
-                    if(country.code.rawValue == "AW" || country.code.rawValue == "CUR" || country.code.rawValue == "BON"){
+                    if(country.code.rawValue == "AW" || country.code.rawValue == "CW" || country.code.rawValue == "BQ"){
                         if var countryValue = self.countryDictionaries["Common countries"] {
                             countryValue.append(country)
                             self.countryDictionaries["Common countries"] = countryValue
